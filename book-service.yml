@@ -27,4 +27,4 @@ spring:
     pathmatch:
       matching-strategy: ant-path-matcher
   application:
-    name: BOOK-SERVICE-1
+    name: BOOK-SERVICE
