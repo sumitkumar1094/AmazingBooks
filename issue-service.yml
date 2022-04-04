@@ -26,5 +26,3 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher
-  application:
-    name: ISSUE-SERVICE
