@@ -15,9 +15,9 @@ spring:
       - id: customer-service
         uri: lb://CUSTOMER-SERVICE
         predicates:
-        - Path=/signup/**
-        - Path=/signin/**
-        - Path=/library/**
+        - Path=/signup
+        - Path=/signin
+        - Path=/library
 
   
           
