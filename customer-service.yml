@@ -26,4 +26,4 @@ server:
   
 jwt:
  secretKey: CustomerSecretKey
- expiration: 30000
+ expiration: 300000
