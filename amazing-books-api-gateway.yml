@@ -1,9 +1,23 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+
+server:
+  port: 8080
+       
 spring:
-  application:
-    name: AMAZING-BOOKS-API-GATEWAY
-  config:
-    import:
-    - configserver:http://localhost:8888  
+  cloud:
+    gateway:
+      routes:
+      - id: customer-service
+        uri: lb://CUSTOMER-SERVICE
+        predicates:
+        - Path=/signup
 
   
           
