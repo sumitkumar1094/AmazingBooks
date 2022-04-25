@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: BOOK-SERVICE
-  config:
-    import:
-    - configserver:http://localhost:8888
