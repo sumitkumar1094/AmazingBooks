@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: AMAZING-BOOKS-API-GATEWAY
-  config:
-    import:
-    - configserver:http://localhost:8888  
