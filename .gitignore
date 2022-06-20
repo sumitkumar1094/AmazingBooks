@@ -1,0 +1,7 @@
+/book-service/target
+/amazingbooks-api-gateway/target
+/config-server/target
+/customer-service/target
+/eurekaServer/target
+/issuer-server/target
+/test
